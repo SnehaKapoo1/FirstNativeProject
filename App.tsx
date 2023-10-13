@@ -5,6 +5,7 @@ import SignUpScreen from "./src/screens/SignUpScreen";
 import ConfirmEmailScreen from "./src/screens/ConfirmEmailScreen";
 import ForgotPasswordScreen from "./src/screens/ForgotPasswordScreen";
 import ResetPasswordScreen from "./src/screens/ResetPasswordScreen";
+import HomeScreen from "./src/screens/HomeScreen/HomeScreen";
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
       {/* <SignInScreen /> */}
       {/* <SignUpScreen /> */}
       {/* <ConfirmEmailScreen /> */}
-      <ForgotPasswordScreen />
+      {/* <ForgotPasswordScreen /> */}
       {/* <ResetPasswordScreen /> */}
+      <HomeScreen />
     </View>
   )
 }
